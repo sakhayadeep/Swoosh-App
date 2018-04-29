@@ -19,8 +19,8 @@
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="88dp"
-        android:layout_height="29dp"
+        android:layout_width="95dp"
+        android:layout_height="30dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="24dp"
@@ -64,7 +64,7 @@
         android:layout_height="53dp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/montserrat"
-        android:text="Find a team in your city & dominate the league"
+        android:text="Find a team in your city &amp; dominate the league"
         android:textAlignment="center"
         android:textColor="@android:color/white"
         android:textSize="18sp"
@@ -79,6 +79,7 @@
         android:layout_marginBottom="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginStart="16dp"
+        android:background="@drawable/swoosh_button"
         android:fontFamily="@font/montserrat"
         android:text="GET STARTED"
         android:textColor="@android:color/white"
