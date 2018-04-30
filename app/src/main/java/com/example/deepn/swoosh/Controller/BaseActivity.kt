@@ -1,4 +1,4 @@
-package com.example.deepn.swoosh
+package com.example.deepn.swoosh.Controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle

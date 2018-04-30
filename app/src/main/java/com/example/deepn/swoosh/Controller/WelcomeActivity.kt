@@ -1,8 +1,8 @@
-package com.example.deepn.swoosh
+package com.example.deepn.swoosh.Controller
 
 import android.content.Intent
-import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.example.deepn.swoosh.R
 import kotlinx.android.synthetic.main.activity_welcome.*
 
 class WelcomeActivity : BaseActivity() {
@@ -11,7 +11,7 @@ class WelcomeActivity : BaseActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_welcome)
         getstartedbtn.setOnClickListener {
-            val leagueIntent = Intent(this,LeagueActivity::class.java)
+            val leagueIntent = Intent(this, LeagueActivity::class.java)
             startActivity(leagueIntent)
         }
     }
